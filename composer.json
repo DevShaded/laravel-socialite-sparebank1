@@ -1,0 +1,29 @@
+{
+    "name": "devshaded/sparebank1-socialite-provider",
+    "license": "MIT",
+    "version": "0.0.1",
+    "autoload": {
+        "psr-4": {
+            "SpareBank1\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "DevShaded",
+            "email": "devshaded@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.1",
+        "laravel/framework": "^11.0",
+        "laravel/socialite": "^5.16",
+        "socialiteproviders/manager": "^4.6"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "SpareBank1\\SpareBank1SocialiteServiceProvider"
+            ]
+        }
+    }
+}
